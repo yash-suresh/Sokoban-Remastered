@@ -17,23 +17,23 @@ Javadocs path: "SureshYash_IntelliJ_10/javadocs"
 Additions:
 1) In-game music plays indefinitely. Option to toggle.
 2) Start Screens: 4 wall colour choice,4 crate colour choice, plus pictures and custom fonts. Powered by FXML+CSS.
-   ![img_3.png](img_3.png)
+  
    
 3) Button for Menu -> Game
 4) Menu asks for player name, error alert pops up if left blank, and halts progress.
 5) Permanent high score list for each level. Created with the help of dynamic file path which checks and/or creates a file for each level, stores the move counter along with name entered in the menu, and finally sorts it.
 6) Popup with highscore+player name for each level, move count for current game, name of current player, and option to go to leaderboard for that level. If highscore is beaten, the current player will automatically go on top.
-   ![img_6.png](img_6.png)
+   
    
 
-![img_5.png](img_5.png)
+
 8) Sprites for all GraphicObject elements:.
 9) 3 levels: 1st is easy and for showing functionality during screencast. 2 and 3 are medium difficulty.
 10) ResetLevel(). resets current level for current or any map set.
 11) SpaceBar shortcut ->resetLevel()
 12) Countdown timer: makes game interesting. Game is lost when time runs out. Pop-up declaring loss shows up.
 12) In game display panel, which shows move count, level number, and time remaining. Customised with images, fonts.
-    ![img_4.png](img_4.png)
+   
 13) Keeper animation. Keeper changes face direction and can be seen 'walking'.
 14) If keeper stood for long period, sprite becomes 'rested', for more realism.
 15) Default keeper position everytime level reset, or level advanced.
@@ -42,10 +42,10 @@ Additions:
 REFACTORING:
 1) Compact, well organised file structure, adhering to MVC.
    
-![img_1.png](img_1.png)
+
 2) Use of Factory Pattern in SpriteStore which instantiates sprite images to be used by other classes.
 3) Controller class for each scene, and an FXML for each menu.
-   ![img.png](img.png)
+   
 3) Use of singleton in SoundFX and writer classes.
 4) Modified every class, but have classed the core game classes as 'Engine' package.
 5) New classes: GameController, Menu(1-3)Controllers, Menu(1-2).fxml, styesheet, writer, SoundFX, SpriteStore
