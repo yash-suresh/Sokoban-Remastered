@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml/1"
+          fx:id="menu2Grid" alignment="center" prefHeight="750.0"
+          prefWidth="500.0"
+          xmlns="http://javafx.com/javafx/10.0.2" fx:controller="sample.Menu2Controller"
+          stylesheets="@sample/resources/style.css">
+
+    <VBox>
+        <HBox>
+            <Label alignment="TOP_CENTER" fx:id="wallImage" styleClass="wallImage"/>
+        </HBox>
+        <HBox>
+            <Label text="Enter Player Name:"
+                   alignment="TOP_CENTER" fx:id="enterName"/>
+        </HBox>
+
+
+        <HBox>
+            <TextField fx:id="nameField"></TextField>
+        </HBox>
+        <HBox>
+            <Label text="Choose a wall colour to get started:"
+                   alignment="TOP_CENTER" fx:id="WallColorChoiceInfo"/>
+        </HBox>
+        <HBox spacing="10">
+            <Button fx:id="button1_1" onAction="#one"/>
+            <Button fx:id="button1_2" onAction="#two"/>
+            <Button fx:id="button1_3" onAction="#three"/>
+            <Button fx:id="button1_4" onAction="#four"/>
+        </HBox>
+
+
+    </VBox>
+</GridPane>

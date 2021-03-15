@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml/1"
+          fx:id="menu3Grid" alignment="center" prefHeight="750.0"
+          prefWidth="500.0"
+          xmlns="http://javafx.com/javafx/10.0.2" fx:controller="sample.Menu3Controller"
+          stylesheets="@sample/resources/style.css">
+
+    <VBox>
+        <HBox>
+            <Label alignment="TOP_CENTER" fx:id="crateImage" styleClass="crateImage"/>
+        </HBox>
+
+        <HBox>
+            <Label text="Now, choose a crate colour:"
+                   alignment="TOP_CENTER" fx:id="CrateColorChoiceInfo"/>
+        </HBox>
+        <HBox spacing="10">
+            <Button fx:id="button2_1" onAction="#startGame1"/>
+            <Button fx:id="button2_2" onAction="#startGame2"/>
+            <Button fx:id="button2_3" onAction="#startGame3"/>
+            <Button fx:id="button2_4" onAction="#startGame4"/>
+        </HBox>
+
+
+    </VBox>
+</GridPane>

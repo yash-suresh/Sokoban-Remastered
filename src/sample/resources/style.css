@@ -1,0 +1,184 @@
+.titleImage
+{
+   -fx-graphic: url('warehouse.png');
+}
+
+.wallImage
+{
+  -fx-graphic: url('wall.png');
+  -fx-position: top;
+  -fx-top:-10px;
+}
+
+.crateImage
+{
+  -fx-graphic: url('forklift.png');
+  -fx-position: top;
+  -fx-top:-10px;
+}
+
+HBox
+{
+  -fx-alignment: top-center;
+  -fx-padding: 10px 10px 10px;
+
+}
+
+.Panel
+{
+   -fx-font-family : "Britannic Bold";
+   -fx-background-color: #8fbc8f;
+}
+
+Button
+{
+    -fx-pref-width: 120px;
+    -fx-background-color: burlyWood;
+    -fx-transition-duration: 0.4s;
+    -fx-pref-height: 40px;
+    -fx-font-family : "Britannic Bold";
+    -fx-font-size : 16;
+}
+
+Button:hover
+{
+  -fx-background-color: chocolate;
+}
+
+#button1_1
+{
+  -fx-background-radius: 50px;
+  -fx-border-radius: 50px;
+  -fx-pref-width: 50px;
+  -fx-background-color: silver;
+  -fx-transition-duration: 0.4s;
+  -fx-pref-height: 40px;
+}
+
+#button1_1:hover
+{
+  -fx-background-color: gray;
+}
+
+
+#button1_2
+{
+
+  -fx-background-radius: 50px;
+  -fx-border-radius: 50px;
+  -fx-pref-width: 50px;
+  -fx-background-color: wheat;
+  -fx-transition-duration: 0.4s;
+  -fx-pref-height: 40px;
+}
+
+#button1_2:hover
+{
+  -fx-background-color: burlyWood;
+}
+
+#button1_3
+{
+
+  -fx-background-radius: 50px;
+  -fx-border-radius: 50px;
+  -fx-pref-width: 50px;
+  -fx-background-color: peru;
+  -fx-transition-duration: 0.4s;
+  -fx-pref-height: 40px;
+}
+
+#button1_3:hover
+{
+  -fx-background-color: chocolate;
+}
+
+#button1_4
+{
+
+  -fx-background-radius: 50px;
+  -fx-border-radius: 50px;
+  -fx-pref-width: 50px;
+  -fx-background-color: black;
+  -fx-transition-duration: 0.4s;
+  -fx-pref-height: 40px;
+}
+
+#enterName
+{
+ -fx-font-family : "Britannic Bold";
+ -fx-font-size : 16;
+}
+
+#WallColorChoiceInfo
+{
+  -fx-font-family : "Britannic Bold";
+  -fx-font-size : 16;
+}
+
+#CrateColorChoiceInfo
+{
+  -fx-font-family : "Britannic Bold";
+  -fx-font-size : 16;
+}
+
+#button2_1
+{
+  -fx-background-radius: 50px;
+  -fx-border-radius: 50px;
+  -fx-pref-width: 50px;
+  -fx-background-color: crimson;
+  -fx-transition-duration: 0.4s;
+  -fx-pref-height: 40px;
+}
+
+#button2_1:hover
+{
+  -fx-background-color: firebrick;
+}
+
+#button2_2
+{
+  -fx-background-radius: 50px;
+  -fx-border-radius: 50px;
+  -fx-pref-width: 50px;
+  -fx-background-color: yellow;
+  -fx-transition-duration: 0.4s;
+  -fx-pref-height: 40px;
+}
+#button2_2:hover
+{
+  -fx-background-color: gold;
+}
+
+#button2_3
+{
+  -fx-background-radius: 50px;
+  -fx-border-radius: 50px;
+  -fx-pref-width: 50px;
+  -fx-background-color: deepSkyBlue;
+  -fx-transition-duration: 0.4s;
+  -fx-pref-height: 40px;
+}
+
+#button2_3:hover
+{
+  -fx-background-color: dodgerBlue;
+}
+
+#button2_4
+{
+  -fx-background-radius: 50px;
+  -fx-border-radius: 50px;
+  -fx-pref-width: 50px;
+  -fx-background-color: black;
+  -fx-transition-duration: 0.4s;
+  -fx-pref-height: 40px;
+}
+
+
+
+
+
+
+
